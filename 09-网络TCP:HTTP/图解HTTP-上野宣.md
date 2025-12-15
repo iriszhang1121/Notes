@@ -6,7 +6,7 @@
 
 **流程**：在Web浏览器地址栏中输入制定URL，Web浏览器会从Web服务器获取文件资源resource等信息，从而显示出Web页面
 
-客户端**client**：通过==发送请求获取服务器资源==的Web浏览器
+客户端**client**：通过发送请求获取服务器资源的Web浏览器
 
 ![image-20251215172517735](https://raw.githubusercontent.com/iriszhang1121/images/master/uPic/image-20251215172517735_OwBQWM.png)
 
@@ -18,7 +18,7 @@ Web使用HTTP（HyperText Transfer Protocol, 超文本传输协议）作为规�
 
 1989年3月，HTTP诞生。最初设想：借助多文档间相互关联形成超文本HperText，连成可以相互参阅的World Wide Web。
 
-现在已提出**==3项WWW构建技术==**：把Standard Generalized Markup Language标准通用标记语言SGML作为**页面的文本标记语言**的**HTML**（HyperText Markup Language，超文本标记语言）； 作为**文档传递协议**的**HTTP**；**指定文档所在地址**的**URL**（Uniform Resource Locator，统一资源定位符）。
+现在已提出**3项WWW构建技术**：把Standard Generalized Markup Language标准通用标记语言SGML作为**页面的文本标记语言**的**HTML**（HyperText Markup Language，超文本标记语言）； 作为**文档传递协议**的**HTTP**；**指定文档所在地址**的**URL**（Uniform Resource Locator，统一资源定位符）。
 
 WWW是Web浏览器当年用来浏览超文本的客户端应用程序时的名称，现在用于表示这一系列的集合，简称为Web。
 
@@ -52,13 +52,13 @@ TCP/IP：互联网相关的各类协议族的总称
 
 **层次化的好处**：支持每个层次内部设计的自由改动，同时不影响其他层次，设计相对简单
 
-**==应用层==**：决定向用户提供应用服务时的通信活动。（FTP、DNS、HTTP...）
+**应用层**：决定向用户提供应用服务时的通信活动。（FTP、DNS、HTTP...）
 
-**==传输层==**：对应用层，提供处于网络连接中的两台计算机之间的**数据传输**。（TCP、 UDP）
+**传输层**：对应用层，提供处于网络连接中的两台计算机之间的**数据传输**。（TCP、 UDP）
 
-**==网络层==**：选择**传输线路**并处理在网络上流动的**数据包**。数据包：网络传输的最小数据单位。规定了通过怎样的路径（传输路线）到达对方计算机，并将数据包传送给对方。
+**网络层**：选择**传输线路**并处理在网络上流动的**数据包**。数据包：网络传输的最小数据单位。规定了通过怎样的路径（传输路线）到达对方计算机，并将数据包传送给对方。
 
-**==链路层==**：处理连接网络的**硬件**部分。包括控制操作系统、硬件的设备驱动，NIC（Network Interface Card，网络适配器，即网卡），及光纤等物理可见部分（还包括连接器等一切传输媒介）。
+**链路层**：处理连接网络的**硬件**部分。包括控制操作系统、硬件的设备驱动，NIC（Network Interface Card，网络适配器，即网卡），及光纤等物理可见部分（还包括连接器等一切传输媒介）。
 
 ![image-20251215174721198](https://raw.githubusercontent.com/iriszhang1121/images/master/uPic/image-20251215174721198_qLgq2d.png)
 
